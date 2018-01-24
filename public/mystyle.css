@@ -1,13 +1,19 @@
-.header {
-	margin: 20px;
-	margin-left: 50px;
+header {
+	padding: 20px;
+	padding-bottom: 100px;
+	background-image: url("img/headerbg.jpg");
+	margin-bottom: 20px;
 }
 body
 {
-	margin-left: 40px;
 }
-input
+input, button
 {
 	margin: 5px;
 	padding: 5px;
+}
+#trucker, #shipper, #compute, .body, #actors
+{
+	
+	margin-left: 50px;
 }

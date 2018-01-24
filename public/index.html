@@ -7,13 +7,16 @@
 	  <link rel="stylesheet" type="text/css" href="mystyle.css">
 
   </head>
+	
   <body>
-	  <div class="header">
+	  
+	 <header>
   <img src="img/logo.png" alt="logo" />
-</div>
-	  <h2>Compute you Everoad bill : Who gets what ?</h2>
+</header>
+	  <h2 class="body">Compute you Everoad bill : Who gets what ?</h2>
 	  <br/>
-	  <p>Everoad is a platform allowing shippers to connect with truckers : no more empty trucks, everything is optimized !</p>
+	    <br/>
+	  <p class="body">Everoad is a platform allowing shippers to connect with truckers : no more empty trucks, everything is optimized !</p>
     <div id="trucker">
       <input class="name" type="text" placeholder="Trucker name"/>
       <input class="price-by-km" type="number" placeholder="Price by km"/>
@@ -28,6 +31,11 @@
       <input id="deductibleOption" class="option" type="checkbox" placeholder="Deductible option"/>
     </div>
     <button id="compute">Compute</button>
+	  <br/>
+	  <br/>
+	  <p class="body">Fill the form above, if you choose the deductible option, the driver will be charged an additional 1€/m3 but will pay only 200€ instead of 1000€ in case of an accident/theft</p>
+	  
+	  
     <div id="actors"></div>
     <script src="convargo.js"></script>
     <script src="index.js"></script>
