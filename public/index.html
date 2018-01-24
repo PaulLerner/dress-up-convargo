@@ -6,6 +6,9 @@
 
   </head>
   <body>
+	  <h1>Everoad</h1>
+	  <h2>Compute you Everoad bill : Who gets what ?</h2>
+	  <p>Everoad is a platform allowing shippers to connect with truckers : no more empty trucks, everything is optimized !</p>
     <div id="trucker">
       <input class="name" type="text" placeholder="Trucker name"/>
       <input class="price-by-km" type="number" placeholder="Price by km"/>
@@ -15,7 +18,9 @@
       <input class="name" type="text" placeholder="Shipper name"/>
       <input class="distance" type="number" placeholder="Distance in km"/>
       <input class="volume" type="number" placeholder="Volume in m3"/>
-      <input class="option" type="checkbox" placeholder="Deductible option"/>
+		
+		<label for="deductibleOption">Deductible option</label>
+      <input id="deductibleOption" class="option" type="checkbox" placeholder="Deductible option"/>
     </div>
     <button id="compute">Compute</button>
     <div id="actors"></div>
