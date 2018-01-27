@@ -8,7 +8,7 @@ body
 {
 	background-color:floralwhite;
 }
-input, button
+input, label, button 
 {
 	margin: 5px;
 	padding: 5px;
@@ -16,6 +16,11 @@ input, button
 #trucker, #shipper, #compute, .body, #actors
 {
 	
+	margin-left: 150px;
+	margin-right: 150px;
+}
+h2
+{
 	margin-left: 50px;
 }
 #logo
